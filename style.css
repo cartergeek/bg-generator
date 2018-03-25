@@ -1,0 +1,20 @@
+body {
+	text-align: center;
+	font-family: raleway;
+	background: linear-gradient(to right, red, yellow);
+}
+h1 {
+	letter-spacing: .4em;
+}
+h2 {
+	letter-spacing: .16em;
+}
+.inputs {
+	display: flex;
+	width: 120px;
+	justify-content: space-between;
+	margin: auto;
+}
+h3 {
+	font-family: monospace;
+}
