@@ -4,7 +4,7 @@ var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 
 function displayBackgroundCSS() {
-	body.style.background = "linear-gradient(to right, #ff0000, #0000ff)";
+	body.style.background = "url('bg1.jpg'), linear-gradient(to right, #ff0000, #0000ff)";
 	css.textContent = body.style.background + ";";
 }
 displayBackgroundCSS();
@@ -28,14 +28,14 @@ randomCol2 = "rgb(" + random2.slice(1) + ")";
 
 console.log(randomCol1);
 console.log(randomCol2);
-document.body.style.background = "linear-gradient(to right, " 
+document.body.style.background = "url('bg1.jpg'), linear-gradient(to right, " 
 	+ randomCol1 
 	+ ", " 
 	+ randomCol2 + ")";
 }
 document.getElementById("generator").addEventListener("click", generate);
 function setGradient() {
-	body.style.background = "linear-gradient(to right," 
+	body.style.background = "url('bg1.jpg'), linear-gradient(to right," 
 	+ color1.value 
 	+ ", " 
 	+ color2.value 
