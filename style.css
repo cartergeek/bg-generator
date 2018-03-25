@@ -1,11 +1,14 @@
 body {
 	text-align: center;
 	font-family: raleway;
-	background: linear-gradient(to right, red, yellow);
+	/* background-image: url('bg1.jpg'); */
+	background: url('bg1.jpg'), linear-gradient(to right, red, yellow);
+	background-blend-mode: overlay;
+	background-size: contain;
 }
 h1 {
 	letter-spacing: .4em;
-	text-shadow: 2px 2px 2px white;
+	text-shadow: 0 0 6px white;
 }
 h2 {
 	letter-spacing: .16em;
