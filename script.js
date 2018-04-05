@@ -32,6 +32,7 @@ document.body.style.background = "url('bg1.jpg'), linear-gradient(to right, "
 	+ randomCol1 
 	+ ", " 
 	+ randomCol2 + ")";
+	css.textContent = document.body.style.background + ";";
 }
 document.getElementById("generator").addEventListener("click", generate);
 function setGradient() {
