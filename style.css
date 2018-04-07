@@ -1,10 +1,16 @@
+/* html {
+	height: 100%;
+	width: 100%;
+} */
+
 body {
 	text-align: center;
 	font-family: raleway;
 	/* background-image: url('bg1.jpg'); */
-	background: url('bg1.jpg'), linear-gradient(to right, red, yellow);
+	background: url('bg1.jpg') contain, linear-gradient(to right, red, yellow);
 	background-blend-mode: overlay;
-	background-size: contain;
+	/* background-size: contain; */
+	/* background-repeat: no-repeat; */
 }
 h1 {
 	letter-spacing: .4em;
